@@ -138,10 +138,13 @@
   align-items: center; /* Center the carousel items vertically */
   animation: carousel 3s linear infinite;
   gap: 4px;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  animation-direction: alternate;
 }
 
 .logo-item img {
-  width: 300px;
+  width: 100px;
   height: auto;
 }
 
